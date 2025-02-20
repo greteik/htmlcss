@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+body {
+    font-family: "Atkinson Hyperlegible Next", "Open Sans";
+    background-color: #2C2C2C;
+}
+
+.container {
+    max-width: 1320px;
+    margin: auto;
+}
+
+a {
+    color: black;
+}
+
+.header-list {
+    display: flex;
+    gap: 145px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-nav {
+    display: flex;
+    padding-top: 30px;
+}
+
+.header {
+    display: flex;
+}
+
+.header-list-item a{
+    color: #E4E4E4;
+    font-family: 'Arodora Pro';
+}
+
+.header-nav img {
+    padding-right: 219px;
+}
+
+.header-list-item1 a {
+    text-decoration: underline solid;
+    color: #E4E4E4;
+    font-family: 'Arodora Pro';
+    text-decoration-color: #E2A300;
+    text-underline-offset: 5px;
+}
+
+
+
+.headline-row img {
+    float: right;
+}
+
+.headline-row-item {
+    padding-top: 200px;
+    margin-left: 150px;
+}
+
+
+.headline-row-item p {
+    padding: 27px 0px 27px 0px;
+}
+
+.headline-row-item h1 {
+    font-size: 60px;
+    font-family: 'NEXT ART';
+    font-weight: 700;
+    line-height: 81.6px;
+    color: #E4E4E4;
+}
+
+.headline-row-item h2 {
+    font-size: 50px;
+    font-family: 'NEXT ART';
+    font-weight: 700;
+    line-height: 81.6px;
+    color: #E4E4E4;
+}
+
+.headline-row-item p {
+    font-weight: 300;
+    font-family: 'Arodora Pro';
+    line-height: 21px;
+    font-size: 18px;
+    color: #E4E4E4;
+}
+
+.headline-row-item a {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #000;
+    background-color: #E29500;
+    padding: 14px 38px 13px 41px;
+    transition: 500ms;
+}
+
+.headline-row-item a:hover {
+    background-color: #00C4F0;
+}
+
