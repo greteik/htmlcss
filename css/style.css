@@ -49,7 +49,6 @@ a {
 }
 
 
-
 .headline-row img {
     float: right;
 }
@@ -102,5 +101,33 @@ a {
 
 .headline-row-item a:hover {
     background-color: #00C4F0;
+}
+
+.section-life {
+    margin-top: 150px;
+    background-color: #414141;
+    padding-top: 100px;
+}
+
+.section-list-item {
+    height: 270px;
+    width: 270px;
+}
+
+.section-list {
+    display: flex;
+    gap: 40px;
+}
+
+.section-list2 {
+    display: flex;
+    gap: 30px;
+    padding-left: 180px;
+    padding-top: 30px;
+}
+
+.section-list-item2 {
+    height: 270px;
+    width: 270px;
 }
 
